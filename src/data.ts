@@ -4,6 +4,28 @@ export const data = {
 			updateDateTime: '2024-07-10 12:55:07.346651+03',
 			permissions: [
 				{
+					name: 'фывафыва',
+					description: 'Супер админ панель',
+					actions: [
+						{
+							name: 'show',
+							description: 'Отображение',
+						},
+						{
+							name: 'read',
+							description: 'Чтение',
+						},
+						{
+							name: 'del',
+							description: 'Удаление',
+						},
+						{
+							name: 'del',
+							description: 'Удаление',
+						},
+					],
+				},
+				{
 					name: 'Authentication',
 					description: 'Аутентификация в Админ-панели',
 					actions: [
@@ -30,6 +52,10 @@ export const data = {
 							name: 'read',
 							description: 'Чтение',
 						},
+						{
+							name: 'del',
+							description: 'Удаление',
+						},
 					],
 				},
 				{
@@ -43,6 +69,10 @@ export const data = {
 						{
 							name: 'show',
 							description: 'Отображение',
+						},
+						{
+							name: 'dec',
+							description: 'Уменьшение',
 						},
 						{
 							name: 'read',
